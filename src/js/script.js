@@ -90,7 +90,7 @@ function addPrice() {
 
   renderData();
 
-  // 🔥 feedback animation
+  // feedback animation
   const feedback = document.getElementById("feedback");
   feedback.style.animation = "none";
   feedback.offsetHeight;
@@ -133,14 +133,22 @@ function renderData() {
       return;
     }
 
-    // FEEDBACK
+    // 🔥 FIXED FEEDBACK LOGIC (WITH TOLERANCE)
     const avg = filtered.reduce((a, b) => a + b.price, 0) / filtered.length;
     const latest = filtered[filtered.length - 1].price;
 
     let text = "";
-    if (latest > avg) text = "🔴 Mahal!";
-    else if (latest < avg) text = "🟢 Mura!";
-    else text = "🟡 Sakto!";
+
+    const lower = avg * 0.9;
+    const upper = avg * 1.1;
+
+    if (latest > upper) {
+      text = "🔴 Mahal!";
+    } else if (latest < lower) {
+      text = "🟢 Mura!";
+    } else {
+      text = "🟡 Sakto!";
+    }
 
     feedback.textContent = text;
 
@@ -181,10 +189,8 @@ if (document.getElementById("priceChart")) {
 }
 
 // =========================
-// NAVIGATION (FINAL FIX)
+// NAVIGATION
 // =========================
-
-// BACK (CATEGORY → HOME, ITEM → CATEGORY)
 function goBack() {
   window.history.back();
 }
