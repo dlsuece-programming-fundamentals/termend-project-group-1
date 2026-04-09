@@ -59,7 +59,9 @@ Present the outcomes of the project, including functionality and performance. Us
 Analyze the results and discuss their implications. Compare the project's outcomes with the initial objectives presented in your proposal.
 
 ### Conclusion
-Summarize the key findings and contributions of the project. Offer insights into the future potential of the website.
+
+With BantayPresyo, we were able to provide a simple and effective application to solve the problem regarding the unfair and outdated way of pricing the items. Having the feature to make the application offline provides better convenience to the vendors with their limited access to an internet connection. As technology advances, this application can be expanded further to more areas and vendors, as well as being able to provide more accurate data.
+
 
 ## References
 
