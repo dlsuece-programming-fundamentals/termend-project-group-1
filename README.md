@@ -14,7 +14,12 @@ A concise summary of the project, its objectives, and its outcomes.
 
 ## Introduction
 
-Briefly introduce the project and its significance. Provide an overview of the chosen area or application.
+Our vendors in the Philippines, specifically those located in the wet markets as well as sari-sari stores, are the one who majorly contributes to their local respective economy. They usually depend on sourcing and selling of daily goods, which is difficult because it is subject to price changes and small profit margins.
+
+One of the challenges they face in their daily operations is the lack of information regarding the changes in prices. Typically, they rely on their personal experiences with their own chosen suppliers, which leads to reduced profits.
+
+This project aims to solve these problems through introducing BantayPresyo, a web-based application where users can compare prices and provide better options and decisions. It is a simple, lightweight app where it can operate offline and will update the next time you go online so that we’ll be able to match the real conditions of the target users.
+
 
 ## Description of the Proposed System
 
