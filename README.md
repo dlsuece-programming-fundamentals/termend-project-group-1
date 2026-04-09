@@ -23,7 +23,11 @@ This project aims to solve these problems through introducing BantayPresyo, a we
 
 ## Description of the Proposed System
 
-Provide a comprehensive description of the developed system. Explain its relevance and impact on the chosen area or application.
+BantayPresyo is an application that is web based where it allows vendors to post their prices on a specific product and it also has a feature where they will be able to compare average prices from other vendors.
+
+The system works by allowing users, particularly vendors, to input or post prices. It will then combine price data from multiple vendors to generate and display the average prices and its range. Lastly, it will provide alerts just in case the price of certain items are higher than average.
+
+It has a feature where it can work offline by displaying the latest information gathered from the vendors and will update once the application gets access to an internet connection. It also has a simple interface so that vendors will be able to easily navigate and learn how the application works. Its main purpose is to help the vendors from overpriced goods and give them more options for higher profit margins and decision making.
 
 ## Objectives
 
