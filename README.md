@@ -3,8 +3,8 @@
 
 **Group Members:** 
 
-Alex Gabriel M. Guinto
-Miguel Dominic C. Lat
+Alex Gabriel M. Guinto,
+Miguel Dominic C. Lat,
 Mark Gerald DG. Prieto
 
 
