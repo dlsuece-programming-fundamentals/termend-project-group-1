@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Home - BantayPresyo</title>
+  <title>Home</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="container">
+<!-- HEADER -->
+<div class="header">
 
-  <!-- STATUS -->
-  <p id="status"></p>
+  <div style="display:flex; align-items:center; justify-content:space-between;">
 
+    <!-- LEFT SIDE -->
+    <div>
+      <div class="title">BantayPresyo</div>
+      <p id="status"></p>
+    </div>
+
+    <!-- BACK BUTTON (TO LOGIN) -->
+    <div class="header-back" onclick="goLogin()">←</div>
+
+  </div>
+
+</div>
   <!-- GREETING -->
   <h2 id="greeting"></h2>
 
-  <!-- CATEGORY CARD -->
+  <!-- CATEGORY LIST -->
   <div class="card">
 
-    <h3>Pumili ng Kategorya</h3>
+    <div class="category-card gulay" onclick="goCategory('gulay')">
+      🥬 Gulay <span>→</span>
+    </div>
 
-    <button class="category" onclick="goCategory('gulay')">🥬 Gulay</button>
+    <div class="category-card karne" onclick="goCategory('karne')">
+      🍗 Karne <span>→</span>
+    </div>
 
-    <button class="category" onclick="goCategory('karne')">🍗 Karne</button>
+    <div class="category-card isda" onclick="goCategory('isda')">
+      🐟 Isda <span>→</span>
+    </div>
 
-    <button class="category" onclick="goCategory('isda')">🐟 Isda</button>
+    <div class="category-card staple" onclick="goCategory('staple')">
+      🍚 Staple <span>→</span>
+    </div>
 
-    <button class="category" onclick="goCategory('staple')">🍚 Staple</button>
-
-    <button class="category" onclick="goCategory('sari')">🧃 Sari-sari</button>
+    <div class="category-card sari" onclick="goCategory('sari')">
+      🧃 Sari-sari <span>→</span>
+    </div>
 
   </div>
 
