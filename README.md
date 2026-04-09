@@ -78,7 +78,8 @@ After the user selects the item, they are presented with a text box, where the u
 In this page the user will be presented with the price history in tabular form. This page presents the fluctuation in purchase history of the specified item. 
 
 ### Discussion
-Analyze the results and discuss their implications. Compare the project's outcomes with the initial objectives presented in your proposal.
+
+Using simple inputs into the application, along with graphical and tabular representations of/price trends, helps to show consumers how much they can expect to pay for products, thereby providing more information for decision-making.
 
 ### Conclusion
 
