@@ -6,62 +6,62 @@
 </head>
 <body>
 
-<!-- HEADER -->
-<div class="header">
-  <div class="title">BantayPresyo</div>
-</div>
+  <!-- ================= HEADER ================= -->
+  <div class="header">
+    <div class="title">BantayPresyo</div>
+  </div>
 
-<div class="container">
+  <div class="container">
 
-  <!-- ITEM TITLE -->
-  <h2 id="itemTitle"></h2>
+    <!-- ================= ITEM TITLE ================= -->
+    <h2 id="itemTitle"></h2>
 
-  <!-- INPUT CARD -->
-  <div class="card">
+    <!-- ================= INPUT SECTION ================= -->
+    <div class="card">
 
-    <div class="input-box">
-      ₱ <input type="number" id="price" placeholder="Ilagay ang presyo">
+      <div class="input-box">
+        ₱ <input type="number" id="price" placeholder="Ilagay ang presyo">
+      </div>
+
+      <button class="primary" onclick="addPrice()">Add Presyo</button>
+
+      <!-- FEEDBACK (Mura / Mahal / Sakto) -->
+      <p id="feedback"></p>
+
     </div>
 
-    <button class="primary" onclick="addPrice()">Add Presyo</button>
+    <!-- ================= GRAPH ================= -->
+    <div class="card">
+      <h3>📈 Price History</h3>
+      <canvas id="priceChart"></canvas>
+    </div>
 
-    <p id="feedback"></p>
+    <!-- ================= TABLE ================= -->
+    <div class="card">
+
+      <h3>📅 History</h3>
+
+      <p style="font-size: 13px; color: #666;">
+        Updated habang naglalagay ka ng presyo
+      </p>
+
+      <table id="priceTable">
+        <tr>
+          <th>Date</th>
+          <th>Price</th>
+        </tr>
+      </table>
+
+    </div>
+
+    <!-- ================= BACK BUTTON ================= -->
+    <div class="back-btn" onclick="goBack()">← Bumalik</div>
 
   </div>
 
-  <!-- GRAPH -->
-  <div class="card">
-    <h3>📈 Price History</h3>
-    <canvas id="priceChart"></canvas>
-  </div>
-
-  <!-- TABLE -->
-  <div class="card">
-
-    <h3>📅 History</h3>
-
-    <p style="font-size:13px; color:#666;">
-      Updated habang naglalagay ka ng presyo
-    </p>
-
-    <table id="priceTable">
-      <tr>
-        <th>Date</th>
-        <th>Price</th>
-      </tr>
-    </table>
-
-  </div>
-
-  <!-- BACK BUTTON -->
-  <div class="back-btn" onclick="goBack()">← Bumalik</div>
-
-</div>
-
-<!-- CHART LIBRARY -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script src="js/script.js"></script>
+  <!-- ================= SCRIPTS ================= -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 </html>
