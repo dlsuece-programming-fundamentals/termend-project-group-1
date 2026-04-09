@@ -31,7 +31,12 @@ It has a feature where it can work offline by displaying the latest information 
 
 ## Objectives
 
-Clearly state the specific objectives of the project. Emphasize the importance of achieving these objectives.
+- Create and develop a simple and lightweight web application for price uploading.
+- Minimize application storage requirement as well as network usage.
+- Help vendors with price comparison and with better buying of supplies.
+- Create an application that works under areas with low coverage of the network.
+- Create a simple and user friendly interface for vendors.
+
 
 ## Web Development Tools and Algorithms
 
