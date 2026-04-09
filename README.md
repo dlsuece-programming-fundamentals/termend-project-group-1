@@ -10,7 +10,11 @@ Mark Gerald DG. Prieto
 
 ## Abstract
 
-A concise summary of the project, its objectives, and its outcomes.
+BantayPresyo is our solution for a possible offline application which is designed to assist local small-scale vendors in the Philippines, specifically those who operate in a local marketplace as well as those who are located in provincial areas, to make informed pricing decisions. Local vendors typically rely on hearsays as well as local supplier pricings which reduces profit margins as well as unfair pricing of products. This project aims to solve this problem by allowing vendors to input their prices, track and compare prices from different common categories of products.
+
+Our web-based application utilizes three basic web technologies which are HTML, CSS, and Javascript. It particularly uses localStorage to enable offline monitoring of prices to reduce data consumption. It computes average prices from data inputted from the vendors which provides them with feedback if their pricing is fairly priced. Additionally, it also has a feature where vendors can see the pricing history of their chosen products as well as a simplified interface.
+
+With our tests, the application generated results which showed that it effectively supported price monitoring and improved decision-making for our vendors. Overall, BantayPresyo encouraged vendors to price their products fairly, while still maintaining good profit margins. 
 
 ## Introduction
 
@@ -19,7 +23,6 @@ Our vendors in the Philippines, specifically those located in the wet markets as
 One of the challenges they face in their daily operations is the lack of information regarding the changes in prices. Typically, they rely on their personal experiences with their own chosen suppliers, which leads to reduced profits.
 
 This project aims to solve these problems through introducing BantayPresyo, a web-based application where users can compare prices and provide better options and decisions. It is a simple, lightweight app where it can operate offline and will update the next time you go online so that we’ll be able to match the real conditions of the target users.
-
 
 ## Description of the Proposed System
 
@@ -36,7 +39,6 @@ It has a feature where it can work offline by displaying the latest information 
 - Help vendors with price comparison and with better buying of supplies.
 - Create an application that works under areas with low coverage of the network.
 - Create a simple and user friendly interface for vendors.
-
 
 ## Web Development Tools and Algorithms
 
@@ -81,7 +83,6 @@ Analyze the results and discuss their implications. Compare the project's outcom
 ### Conclusion
 
 With BantayPresyo, we were able to provide a simple and effective application to solve the problem regarding the unfair and outdated way of pricing the items. Having the feature to make the application offline provides better convenience to the vendors with their limited access to an internet connection. As technology advances, this application can be expanded further to more areas and vendors, as well as being able to provide more accurate data.
-
 
 ## References
 
