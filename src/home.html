@@ -6,27 +6,26 @@
 </head>
 <body>
 
-<!-- HEADER SECTION -->
-<div class="header">
+  <!-- ================= HEADER ================= -->
+  <div class="header">
+    <div style="display: flex; align-items: center; justify-content: space-between;">
 
-  <div style="display:flex; align-items:center; justify-content:space-between;">
+      <!-- LEFT: TITLE + STATUS -->
+      <div>
+        <div class="title">BantayPresyo</div>
+        <p id="status"></p>
+      </div>
 
-    <!-- LEFT PART OF HEADER -->
-    <div>
-      <div class="title">BantayPresyo</div>
-      <p id="status"></p>
+      <!-- LOGOUT BUTTON -->
+      <div class="header-back" onclick="goLogin()">←</div>
+
     </div>
-
-    <!-- BACK BUTTON TO LOG IN WINDOW -->
-    <div class="header-back" onclick="goLogin()">←</div>
-
   </div>
 
-</div>
-  <!-- INTRODUCTORY PART -->
+  <!-- ================= GREETING ================= -->
   <h2 id="greeting"></h2>
 
-  <!-- CODE FOR CATEGORY -->
+  <!-- ================= CATEGORY LIST ================= -->
   <div class="card">
 
     <div class="category-card gulay" onclick="goCategory('gulay')">
@@ -51,8 +50,8 @@
 
   </div>
 
-</div>
+  <!-- ================= SCRIPT ================= -->
+  <script src="js/script.js"></script>
 
-<script src="js/script.js"></script>
 </body>
 </html>
