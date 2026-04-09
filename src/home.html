@@ -1,56 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Home</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- ================= HEADER ================= -->
-  <div class="header">
-    <div style="display: flex; align-items: center; justify-content: space-between;">
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header-content">
 
       <!-- LEFT: TITLE + STATUS -->
-      <div>
-        <div class="title">BantayPresyo</div>
+      <div class="header-left">
+        <h1 class="title">BantayPresyo</h1>
         <p id="status"></p>
       </div>
 
-      <!-- LOGOUT BUTTON -->
-      <div class="header-back" onclick="goLogin()">←</div>
+      <!-- RIGHT: LOGOUT -->
+      <button class="header-back" onclick="goLogin()">←</button>
 
     </div>
-  </div>
+  </header>
 
-  <!-- ================= GREETING ================= -->
-  <h2 id="greeting"></h2>
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="container">
 
-  <!-- ================= CATEGORY LIST ================= -->
-  <div class="card">
+    <!-- GREETING -->
+    <h2 id="greeting"></h2>
 
-    <div class="category-card gulay" onclick="goCategory('gulay')">
-      🥬 Gulay <span>→</span>
-    </div>
+    <!-- CATEGORY LIST -->
+    <section class="card">
 
-    <div class="category-card karne" onclick="goCategory('karne')">
-      🍗 Karne <span>→</span>
-    </div>
+      <button class="category-card gulay" onclick="goCategory('gulay')">
+        🥬 Gulay <span>→</span>
+      </button>
 
-    <div class="category-card isda" onclick="goCategory('isda')">
-      🐟 Isda <span>→</span>
-    </div>
+      <button class="category-card karne" onclick="goCategory('karne')">
+        🍗 Karne <span>→</span>
+      </button>
 
-    <div class="category-card staple" onclick="goCategory('staple')">
-      🍚 Staple <span>→</span>
-    </div>
+      <button class="category-card isda" onclick="goCategory('isda')">
+        🐟 Isda <span>→</span>
+      </button>
 
-    <div class="category-card sari" onclick="goCategory('sari')">
-      🧃 Sari-sari <span>→</span>
-    </div>
+      <button class="category-card staple" onclick="goCategory('staple')">
+        🍚 Staple <span>→</span>
+      </button>
 
-  </div>
+      <button class="category-card sari" onclick="goCategory('sari')">
+        🧃 Sari-sari <span>→</span>
+      </button>
 
-  <!-- ================= SCRIPT ================= -->
+    </section>
+
+  </main>
+
+  <!-- ===== SCRIPT ===== -->
   <script src="js/script.js"></script>
 
 </body>
