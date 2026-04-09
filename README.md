@@ -48,7 +48,7 @@ JavaScript - used for the logic and features of the application.
 
 ## Methodology
 
-Explain the methodology used in developing the project. Include any experimental or testing methods employed to test your website's functionality.
+The development for this web application started by first identifying key challenges/setbacks faced by these small vendor owners, particularly there is a lack of basis if the price for the item is reasonable. To mitigate this, a data-lite and offline web application was conceived to address root problems to further assist vendors in making informed and critical decisions. The web application was first envisioned in figma make to understand how the general ui will work ensuring accessibility for everyone. Using the foundation set by figma make we implemented the application utilizing HTML, CSS, and JavaScript, with localStorage so that the application can be used offline and store user input data. We thought of arranging the products into predefined categories to streamline the ui and make it more user friendly. Users then can enter prices which are stored and processed to compute an average price. Using the average as a basis the program will determine where the item that is being purchased by the user is "mura,” “mahal,” or “sakto.” Additionally, we also thought of providing visual aid such as graphs to showcase present price trends and history. However, the current application only allows users to manually input data to simulate read world-usage. But, the program is designed with scalability in mind, allowing for future updates such as expansion like a multi-user platform that aggregates price data across different vendors and devices.
 
 ## Testing and Evaluation of Results
 
