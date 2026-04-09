@@ -40,7 +40,11 @@ It has a feature where it can work offline by displaying the latest information 
 
 ## Web Development Tools and Algorithms
 
-Detail the different web development tools you used in the project (HTML, CSS, JavaScript, Bootstrap, etc.). Describe the algorithms you implemented and their significance in the development stages.
+Web Development Tools
+
+HTML - used for the main codes and contains the structure and functionality of the application
+CSS - used for the designs and layout of the UI/Interface
+JavaScript - used for the logic and features of the application.
 
 ## Methodology
 
