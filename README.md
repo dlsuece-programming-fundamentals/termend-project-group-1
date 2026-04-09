@@ -89,9 +89,10 @@ Your walkthrough should demonstrate your website's key features and functionalit
 Provide step-by-step instructions so that anyone who downloads this repository can run your website:
 
 ```
-# Example:
-# 1. Open index.html in a browser
-# 2. Or run a local server: python -m http.server 8000
+1. Open the project in Visual Studio Code.
+2. Install the Live Server Extension.
+3. Right - click src/index.html.
+4. Click "Open with Live Server".
 ```
 
 ## Project Structure
