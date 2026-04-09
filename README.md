@@ -53,7 +53,29 @@ The development for this web application started by first identifying key challe
 ## Testing and Evaluation of Results
 
 ### Results
-Present the outcomes of the project, including functionality and performance. Use screenshots or tables if necessary to illustrate testing results.
+Results
+
+Figure 1: Username Input
+This page in the web application is the starting point for the application itself, presenting the username input where the user will input their name and then they will press enter. I don't know why it's just the username but no password. 
+
+Figure 2: Home Screen
+After inputting the username and pressing the green button, the user will be presented with the home screen where they can see the main categories of which they can select to further specify the item they want to compare prices with. 
+
+Figure 3: Item List
+After picking the subsection the user will be presented with the items within the subsection. In this page the user can choose the specific item they want to compare to the market average. 
+
+Figure 4: Item Information (Mura!)
+After the user selects the item, they are presented with a text box, where the user will input the price. If the price they input is lower than the market average price, the program will say “Mura!”. 
+
+Figure 5: Item Information (Mahal!)
+After the user selects the item, they are presented with a text box, where the user will input the price. If the price they input is higher than the market average price, the program will say “Mahal!”.
+
+Figure 6: Item Information (Sako!)
+After the user selects the item, they are presented with a text box, where the user will input the price. If the price they input is within the average of the market price, the program will say “Sakto!”.
+
+Figure 7: Price Table 
+In this page the user will be presented with the price history in tabular form. This page presents the fluctuation in purchase history of the specified item. 
+
 
 ### Discussion
 Analyze the results and discuss their implications. Compare the project's outcomes with the initial objectives presented in your proposal.
