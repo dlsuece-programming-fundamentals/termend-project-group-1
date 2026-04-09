@@ -65,7 +65,13 @@ With BantayPresyo, we were able to provide a simple and effective application to
 
 ## References
 
-Cite all sources, research papers, and references used in the project.
+Shepherd, A. W. (1997). Market information services: Theory and practice. https://openknowledge.fao.org/server/api/core/bitstreams/80f10d95-4edf-4e88-93a4-28c6c8541714/content
+
+Islam, M. S., & Grönlund, Å. (2011, October). ICT based market information system: An effective tool for empowerment of small and marginal farmers. In 2011 International Conference on Information and Communication Technologies and Development (ICTD) (pp. 1–9). IEEE. https://ieeexplore.ieee.org/abstract/document/7073136
+
+Aker, J. C., & Mbiti, I. M. (2019). Mobile phones and economic development in Africa. Routledge. https://books.google.com.ph/books?id=qSTMEQAAQBAJ
+
+Park, S.-K. (1989). Market information and price reporting systems in food and agricultural sector. Journal of Rural Development, 12(1), 19–30. Korea Rural Economics Institute. https://ageconsearch.umn.edu/record/287564/files/Sei-Kwon.pdf
 
 ## Project Deliverables
 
