@@ -80,7 +80,7 @@ Check off each item as you complete it:
 ## Video Walkthrough
 
 Paste your video link here:
-> (Replace this line with your video link)
+https://drive.google.com/file/d/1WdVW6Hrar8AdaUHhjoeKHvRiMGhp3y7C/view?usp=sharing
 
 Your walkthrough should demonstrate your website's key features and functionality. Max 5 minutes. There will be no presentation — your video should be clear enough that any student taking this course can understand your project.
 
