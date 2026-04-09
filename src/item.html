@@ -1,65 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Item</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- ================= HEADER ================= -->
-  <div class="header">
-    <div class="title">BantayPresyo</div>
-  </div>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <h1 class="title">BantayPresyo</h1>
+  </header>
 
-  <div class="container">
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="container">
 
-    <!-- ================= ITEM TITLE ================= -->
+    <!-- ITEM TITLE -->
     <h2 id="itemTitle"></h2>
 
-    <!-- ================= INPUT SECTION ================= -->
-    <div class="card">
+    <!-- ===== INPUT SECTION ===== -->
+    <section class="card">
 
       <div class="input-box">
-        ₱ <input type="number" id="price" placeholder="Ilagay ang presyo">
+        <span>₱</span>
+        <input type="number" id="price" placeholder="Ilagay ang presyo">
       </div>
 
       <button class="primary" onclick="addPrice()">Add Presyo</button>
 
-      <!-- FEEDBACK (Mura / Mahal / Sakto) -->
       <p id="feedback"></p>
 
-    </div>
+    </section>
 
-    <!-- ================= GRAPH ================= -->
-    <div class="card">
+    <!-- ===== GRAPH ===== -->
+    <section class="card">
       <h3>📈 Price History</h3>
       <canvas id="priceChart"></canvas>
-    </div>
+    </section>
 
-    <!-- ================= TABLE ================= -->
-    <div class="card">
+    <!-- ===== TABLE ===== -->
+    <section class="card">
 
       <h3>📅 History</h3>
 
-      <p style="font-size: 13px; color: #666;">
+      <p class="description">
         Updated habang naglalagay ka ng presyo
       </p>
 
       <table id="priceTable">
-        <tr>
-          <th>Date</th>
-          <th>Price</th>
-        </tr>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
       </table>
 
-    </div>
+    </section>
 
-    <!-- ================= BACK BUTTON ================= -->
-    <div class="back-btn" onclick="goBack()">← Bumalik</div>
+    <!-- ===== BACK BUTTON ===== -->
+    <button class="back-btn" onclick="goBack()">← Bumalik</button>
 
-  </div>
+  </main>
 
-  <!-- ================= SCRIPTS ================= -->
+  <!-- ===== SCRIPTS ===== -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="js/script.js"></script>
 
